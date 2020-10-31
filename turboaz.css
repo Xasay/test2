@@ -1,0 +1,287 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+.header{
+    width: 100vw;
+    background-color: #292929;
+    
+    color: grey;
+
+}
+.header>header{
+
+    
+    margin-left: 500px;
+    
+}
+.header>header>ul{
+    list-style-type: none;
+    /*margin-left: 150px;*/
+    
+}
+.header>header>ul>li{
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.header>header>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.heading{
+    color: white;
+}
+.heading1{
+    position: absolute;
+   /* z-index: 2;*/
+    box-shadow: 2px 0px 0px  black;
+    background-color: #CA1016;
+    height: 100px;
+    box-sizing: border-box;
+    margin-left: 259px;
+    top: 6px;
+    padding: 15px 45px;
+}
+.heading2{
+    display: flex;
+    justify-content: center;
+    /*z-index: 1;*/
+    margin-left: 350px;
+}
+.heading2 div {
+    padding: 15px 50px;
+    border: 1px solid grey;
+    
+}
+.heading2 div:nth-child(1):hover{
+    background-color: #7C553B;
+}
+.heading2 div:nth-child(2):hover{
+    background-color: orangered;
+}
+.heading2 div:nth-child(3):hover{
+    background-color: #F8CB1C;
+}
+.navblock{
+   
+   background-color: #CA1016;
+    display: flex;
+    
+    
+}
+.navbar>ul{
+    list-style-type: none;
+    
+   
+   
+
+}
+.navbar{
+    margin-left: 259px;
+}
+.navbar>ul>li{
+    display: inline;
+    padding: 20px 15px;
+    color: white;
+    background-color:#CA1016;
+    float: left;
+   
+    
+}
+.navbar>ul>li:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+
+.drop>ul{
+    list-style-type: none;
+    margin-top: 17px;
+    position: absolute;;
+    background-color:white;
+    color: black;
+    border: 1px solid grey;
+    display: none;
+}
+.drop>ul>li{
+    font-family: sans-serif;
+    padding: 10px 20px ;
+    
+}
+.drop>ul>li:hover{
+    background-color: whitesmoke;
+}
+.drop:hover>ul {
+    display: block;
+    cursor: pointer;
+}
+.elan{
+    background-color: #7ED321;
+    color: white;
+    box-sizing: border-box;
+    padding: 15px 28px ;
+    margin-left:30px ;
+    font-size: 20px;
+}
+.elan:hover{
+    cursor: pointer;
+}
+.orta{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+}
+.orta-sol{
+    background-color: tomato;
+    width: 150px;
+    
+    padding-left: 50px;
+    writing-mode: vertical-lr;
+    text-align: center;
+}
+.orta-esas{
+    background-color: white;
+    margin-top: 0px;
+    padding-top: 0%;
+  
+}
+.orta-esas-input{
+    background-color: #D8D8D8;
+    margin-top: 0%;
+    padding: 10px 20px;
+    
+    
+}
+.orta-esas-input-1 ,.orta-esas-input-2{
+    display: flex;
+    
+}
+.orta-esas-input-1>div ,.orta-esas-input-2>div{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.orta-esas-input-1>div>input ,.orta-esas-input-2>div>input{
+    border: none;
+}
+.orta-esas-input-1_1 {
+ background-color: white;
+ width: 165px;
+ 
+}
+.orta-esas-input-1_2{
+    background-color: white;
+
+}
+.orta-esas-input-1_2>select{
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    
+}
+.orta-esas-input-1_3{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orta-esas-input-1_3>input[placeholder="Kredit"]{
+    width: 50px;
+    
+}
+.orta-esas-input-1_4{
+    background-color: white;
+}
+.orta-esas-input-1-button{
+    color: white;
+    background-color: #C71B25;
+    padding: 0px 60px;
+    border-radius: 10px;
+    height: 40px;
+    font-weight: 600;
+}
+.orta-esas-input-2_1{
+    background-color: white;
+    width: 165px;
+}
+.orta-esas-input-2_2{
+background-color: white;
+width: 355px;
+}
+.orta-esas-input-2_3{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.orta-esas-input-2_3>input[placeholder="Barter"]{
+    width: 50px;
+}
+.orta-esas-input-2_4{
+    background-color: white;
+}
+.orta-esas-input-2-button{
+    color: white;
+    background-color: #797979;
+    padding: 0px 35px;
+    border-radius: 10px;
+    height: 40px;
+    font-weight: 600;
+}
+.orta-esas-asagi{
+    width: 100%;
+    
+    
+}
+.orta-esas-asagi>header{
+    padding: 20px;
+    display: flex;
+
+    
+}
+.sekiller-1>div{
+    width: 229px;
+    height: 229px;
+    border: 1px solid grey;
+    margin: 10px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.sekiller-2>div{
+    width: 229px;
+    height: 229px;
+    border: 1px solid grey;
+    margin: 10px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+.sekiller-1{
+    display: flex;
+    margin-left: 30px;
+    
+}
+.sekiller-2{
+    display: flex;
+    margin-left: 30px;
+}
+.orta-sag{
+    
+     
+    background-color: tomato;
+    writing-mode: vertical-lr;
+    width: 165px;
+    padding-left: 50px;
+    text-align: center;
+}
